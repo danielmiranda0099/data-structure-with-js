@@ -40,3 +40,11 @@ class MyArray {
 }
 
 const myArray = new MyArray();
+
+myArray.push('Jose');
+console.log(myArray)
+myArray.push('Daniel');
+myArray.push('Juan');
+
+
+console.log(myArray.get(1));
